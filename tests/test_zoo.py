@@ -45,7 +45,7 @@ class TestZoo(TestCase):
                                            surname="Rossi",
                                             id=32)
         fence_1: Fence = Fence(area=1,temperature=10,
-                               habitat="Sea")
+                               habitat="Savana")
         animal_1: Animal = Animal(name="Ciro",species="Lion",age=4,
                                   height=1,width=1,preferred_habitat="Savana")
         zookeeper_1.add_animal(animal_1,fence_1)
